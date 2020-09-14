@@ -11,7 +11,7 @@ Main functions of TinyHub are:
 The Entity Relationship diagram for the ‘TinyHub’ database provides the visualization the data flow across various entities.is shown below:
 
 <p align="center">
-<img src="https://github.com/samratdhumal/Tabular-methods-for-Multiagent-RL/blob/master/Images/1.JPG" width="750">
+<img src="https://github.com/samratdhumal/Data-Model-and-Query-Languages/blob/master/Part%201/ER_DMQL.png" width="750">
 </p>
 
 
