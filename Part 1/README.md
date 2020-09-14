@@ -1,5 +1,5 @@
 ## PART1 - "TINYHUB: A Course Enrollment Website”
-TinyHub is a database system created to maintain the details of the students, professors, departments, programs, courses offered and grades.
+TinyHub is a database system created to maintain the details of the students, professors, departments, programs, courses offered and grades.</br>
 Main functions of TinyHub are:
 • User management: User sign up, user login/logout.
 • Department management: Department functionality.
