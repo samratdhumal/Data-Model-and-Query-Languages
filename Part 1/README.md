@@ -75,6 +75,6 @@ The system is executed in four stages:
 
 The SQL EER diagram is as below:
 <p align="center">
-<img src="https://github.com/samratdhumal/Tabular-methods-for-Multiagent-RL/blob/master/Images/1.JPG" width="750">
+<img src="https://github.com/samratdhumal/Data-Model-and-Query-Languages/blob/master/Part%201/EER_diag.png" width="750">
 </p>
 
