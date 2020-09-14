@@ -49,7 +49,7 @@ Sample output format:</br>
 </categories></br>
 ......</br>
 </result></br>
-### 1.4 Return all the book price and rating with book name and sort the price and rating from high to low separately.
+#### 1.4 Return all the book price and rating with book name and sort the price and rating from high to low separately.
 Sample output format 1.4a:</br>
 <title>Applied Mathematics</title></br>
 <price>100</price></br>
