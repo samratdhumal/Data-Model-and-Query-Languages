@@ -38,11 +38,11 @@ The tables created to accomplish the requirements are according to order of exec
 The system is executed in four stages:
 
 #### 1.	User Management:
-•	The ‘USER’ entity set refers to all the members enrolled in the university. The Users can be broadly classified as entities – STUDENT, PROFESSOR and STAFF (described with a ISA relationship) with each of them requiring signing up to their accounts using their respective email address which is unique to each user. 
-•	The USER entity has attributes `User_ID`, `User_Name`, `Start_Date`, `End_Date`, `Access_Level`. The User ID is primary key.
-•	The Access_Level helps to identify what type of access the user has. We have have 3 access levels as per our type of users.
-•	The USER is connected with an ACCOUNT entity with a ‘Has A’ relationship.
-•	The ACCOUNT entity has attributes `User_ID`, `Display_Name`, `Email_ID`, `Password`, `Account_Status`. As per the Instructions the Email ID is a Unique and Primary key, The User_ID, display name are also unique.
+•	The ‘USER’ entity set refers to all the members enrolled in the university. The Users can be broadly classified as entities – STUDENT, PROFESSOR and STAFF (described with a ISA relationship) with each of them requiring signing up to their accounts using their respective email address which is unique to each user. </br>
+•	The USER entity has attributes `User_ID`, `User_Name`, `Start_Date`, `End_Date`, `Access_Level`. The User ID is primary key.</br>
+•	The Access_Level helps to identify what type of access the user has. We have have 3 access levels as per our type of users.</br>
+•	The USER is connected with an ACCOUNT entity with a ‘Has A’ relationship.</br>
+•	The ACCOUNT entity has attributes `User_ID`, `Display_Name`, `Email_ID`, `Password`, `Account_Status`. As per the Instructions the Email ID is a Unique and Primary key, The User_ID, display name are also unique.</br>
 
 #### 2.	Department management:
 •	The department management includes the various departments, the professors/staff enrolled in a department, programs offered by each department.</br>
@@ -59,10 +59,9 @@ The system is executed in four stages:
 •	This section focuses on the courses offered by the department, pre-requisites if any, when the courses may be opted for (which semester), the teaching assistants for each course. </br>
 •	The COURSE entity has multiple attributes as mentioned in the ER.</br>
 •	Here STUDENT ‘Registers’ in SEMESTER with one to many relation showing that that one student can register in multiple semesters. Each DEPARTMENT ‘Has’ multiple COURSES is shown in one to many relation.</br>
-•	The TEACHING ASSISTANT entity is derived from the STUDENT and the INSTRUCTOR entity is derived from the PROFESSOR.COURSE entity is connected to itself with many to many cardinality using PREREQUISITE relationship.</br></br>
+•	The TEACHING ASSISTANT entity is derived from the STUDENT and the INSTRUCTOR entity is derived from the PROFESSOR.COURSE entity is connected to itself with many to many cardinality using PREREQUISITE relationship.</br>
 •	The INSTRUCTOR has COURSE_LIST multivariate attribute which is treated as new table and the details of the courses the instructor teaches are stored here.</br>
-•	Also the pr</br>erequisite courses are shown by self</br>-joining the course by ‘Prerequisite’ relationship.</br>
-</br>
+•	Also the prerequisite courses are shown by self-joining the course by ‘Prerequisite’ relationship.</br>
 
 #### </br>4.	Student-Course management:
 •	Here the details pertaining to each course, the grades obtained on the exam, feedback provided to the professors.</br> 
