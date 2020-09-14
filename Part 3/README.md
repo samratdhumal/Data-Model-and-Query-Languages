@@ -1,6 +1,7 @@
 ## PART3 - "Book Management(XQuery)”
 
-### 1.1 Find the names of all Jeff’s co-authors and list them together with the titles of books that were coauthored.
+### 1.1 
+Find the names of all Jeff’s co-authors and list them together with the titles of books that were coauthored.</br>
 Sample output format:</br>
 <book></br>
 <title>Big data analytics</title></br>
@@ -8,7 +9,9 @@ Sample output format:</br>
 <name>the other author</name></br>
 </book></br>
 ……</br>
-### 1.2 Return all the author pairs who have co-authored two or more books together, list their co-authored books’ information.
+
+### 1.2
+Return all the author pairs who have co-authored two or more books together, list their co-authored books’ information.</br>
 Sample output format:</br>
 <coauthor></br>
 <output></br>
@@ -34,7 +37,9 @@ Sample output format:</br>
 ......</br>
 </coauthor></br>
 ……</br>
-### 1.3 Find the average book price of each category and global. If a category has higher than global average book price, list one most expensive book and its authors, for each of those categories.
+
+### 1.3 
+Find the average book price of each category and global. If a category has higher than global average book price, list one most expensive book and its authors, for each of those categories.</br>
 Sample output format:</br>
 <result></br>
 <categories></br>
@@ -49,7 +54,8 @@ Sample output format:</br>
 </categories></br>
 ......</br>
 </result></br>
-#### 1.4 Return all the book price and rating with book name and sort the price and rating from high to low separately.
+
+### 1.4 Return all the book price and rating with book name and sort the price and rating from high to low separately.</br>
 Sample output format 1.4a:</br>
 <title>Applied Mathematics</title></br>
 <price>100</price></br>
